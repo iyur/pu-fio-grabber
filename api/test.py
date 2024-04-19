@@ -8,3 +8,6 @@ class handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write('Just a test'.encode('utf-8'))
         return
+
+
+print("qwerty")
